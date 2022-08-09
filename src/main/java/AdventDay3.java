@@ -1,15 +1,16 @@
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 
 public class AdventDay3 {
 
     public int getHousesVisited(String input) {
         List<List<Integer>> houses = new ArrayList<>();
+
         int xIndex = 0;
         int yIndex = 0;
-        int currentHouseXVal = 0;
-        int currentHouseYVal = 0;
+        int currentHouseXVal;
+        int currentHouseYVal;
         int housesGifted = 0;
         int value;
 
@@ -60,4 +61,6 @@ public class AdventDay3 {
 
         return housesGifted;
     }
+
+
 }
