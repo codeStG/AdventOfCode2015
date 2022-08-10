@@ -1,7 +1,8 @@
-import java.util.HashMap;
-import java.util.List;
+package AdventOfCode;
 
-public class AdventDay3AbramStyle {
+import java.util.HashMap;
+
+public class Day3AbramStyle {
     private final HashMap<Integer, HashMap<Integer, Integer>> neighborhood = new HashMap<>();
 
     public int visitHouses(String input) {

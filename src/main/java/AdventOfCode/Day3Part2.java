@@ -1,7 +1,9 @@
+package AdventOfCode;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class AdventDay3Part2 {
+public class Day3Part2 {
 
     public int getHousesVisited(String input) {
         List<List<Integer>> houses = new ArrayList<>();

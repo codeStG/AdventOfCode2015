@@ -1,9 +1,10 @@
-import javax.print.attribute.standard.Compression;
+package AdventOfCode;
+
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-public class AdventDay2 {
+public class Day2 {
     private List<Integer> currentDimensions;
 
     public int getSqFtNeeded(String input) {

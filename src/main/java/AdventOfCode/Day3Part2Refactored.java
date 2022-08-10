@@ -1,7 +1,9 @@
+package AdventOfCode;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class AdventDay3Part2Refactored {
+public class Day3Part2Refactored {
     private final List<List<Integer>> houses = new ArrayList<>();
     private int xIndex = 0;
     private int yIndex = 0;

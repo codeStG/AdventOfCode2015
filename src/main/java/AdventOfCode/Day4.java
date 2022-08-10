@@ -1,14 +1,16 @@
+package AdventOfCode;
+
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import org.apache.commons.codec.binary.Hex;
 
-public class AdventDay4 {
+public class Day4 {
     private final MessageDigest messageDigest = MessageDigest.getInstance("MD5");
     private int secretKeyNumberPortion;
 
-    public AdventDay4() throws NoSuchAlgorithmException {
+    public Day4() throws NoSuchAlgorithmException {
     }
 
     public int findSecretKeyNumberPortion(String secretKey) throws IOException {

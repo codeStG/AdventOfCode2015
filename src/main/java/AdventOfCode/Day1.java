@@ -1,4 +1,6 @@
-public class AdventDay1 {
+package AdventOfCode;
+
+public class Day1 {
 
     public int getFloor(String input) {
         int currentFloor = 0;
