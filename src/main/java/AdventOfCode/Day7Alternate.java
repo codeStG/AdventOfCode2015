@@ -15,9 +15,7 @@ public class Day7Alternate {
         addWiresToList();
 
         for(int j = 0; j < lines.size(); j++) {
-            for(int i = 0; i < lines.size(); i++) {
-
-                String line = lines.get(i);
+            for (String line : lines) {
 
                 splitLineIntoWords(line);
 
