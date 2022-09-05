@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class ScratchPaper {
 
     public static void main(String[] args) {
-        Day10 test = new Day10();
+        Day11 test = new Day11();
 //        File file = new File("C:\\Users\\getorres.CORPORATE\\Documents\\gitProjects\\AdventOfCode2015\\src\\main\\java\\AdventOfCode\\Day8Input");
 //
 //        try {
@@ -22,6 +22,6 @@ public class ScratchPaper {
 //
 //        System.out.println(test.getTotalChars());
 
-        System.out.println(test.getSpokenValue("3113322113", 50));
+        System.out.println(test.getNextValidPassword("cqjxxyzz"));
     }
 }
